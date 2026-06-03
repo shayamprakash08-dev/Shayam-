@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Polytechnic College Admission Form</title>
+</head>
+<body>
+    <h1>Polytechnic College Admission Form</h1>
+    
+    <form action="#" method="post">
+        <fieldset>
+            <legend><b>Personal Information</b></legend>
+            
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required><br><br>
+            
+            <label for="fathername">Father's Name:</label><br>
+            <input type="text" id="fathername" name="fathername" required><br><br>
+            
+            <label for="mothername">Mother's Name:</label><br>
+            <input type="text" id="mothername" name="mothername" required><br><br>
+            
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+            
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Contact Information</b></legend>
+            
+            <label for="mobile">Mobile Number:</label><br>
+            <input type="tel" id="mobile" name="mobile" required><br><br>
+            
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="address">Permanent Address:</label><br>
+            <textarea id="address" name="address" rows="4" cols="40" required></textarea><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Academic Information</b></legend>
+            
+            <label for="board">10th Board Name:</label><br>
+            <input type="text" id="board" name="board" required><br><br>
+            
+            <label for="school">School Name:</label><br>
+            <input type="text" id="school" name="school" required><br><br>
+            
+            <label for="year">Year of Passing:</label><br>
+            <input type="number" id="year" name="year" min="2000" max="2026" required><br><br>
+            
+            <label for="percentage">Percentage/CGPA:</label><br>
+            <input type="text" id="percentage" name="percentage" required><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Course Selection</b></legend>
+            <input type="radio" id="cse" name="course" value="Computer Science Engineering" required>
+            <label for="cse">Computer Science Engineering</label><br>
+            <input type="radio" id="mech" name="course" value="Mechanical Engineering">
+            <label for="mech">Mechanical Engineering</label><br>
+            
+            <input type="radio" id="civil" name="course" value="Civil Engineering">
+            <label for="civil">Civil Engineering</label><br>
+            
+            <input type="radio" id="electrical" name="course" value="Electrical Engineering">
+            <label for="electrical">Electrical Engineering</label><br>
+            
+            <input type="radio" id="electronics" name="course" value="Electronics Engineering">
+            <label for="electronics">Electronics Engineering</label><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Declaration</b></legend>
+            
+            <input type="checkbox" id="declaration" name="declaration" required>
+            <label for="declaration">I hereby declare that all the information provided by me is correct.</label><br><br>
+        </fieldset>
+        <br> 
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
