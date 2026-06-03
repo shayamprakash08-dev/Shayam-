@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Favorite Things</title>
+</head>
+<body>
+    <h1>My Favorite Things</h1>
+    
+    <h2>Favorite Foods</h2>
+    <ul>
+        <li>Pizza</li>
+        <li>Biryani</li>
+        <li>Paneer Butter Masala</li>
+        <li>Momos</li>
+        <li>Ice Cream</li>
+    </ul>
+    
+    <h2>Daily Routine</h2>
+    <ol>
+        <li>Wake up at 6:30 AM</li>
+        <li>Exercise for 30 minutes</li>
+        <li>Attend college from 9 AM to 4 PM</li>
+        <li>Self study and coding practice</li>
+        <li>Sleep by 11 PM</li>
+    </ol>
+    
+    <h2>Favorite Programming Languages</h2>
+    <ul>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>C++</li>
+        <li>HTML</li>
+    </ul>
+</body>
+</html>
