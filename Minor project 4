@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Information Table</title>
+</head>
+<body>
+    <h1>Student Information</h1>
+    
+    <table border="1">
+        <tr>
+            <th>Roll Number</th>
+            <th>Name</th>
+            <th>Branch</th>
+            <th>Semester</th>
+            <th>Contact</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Amit Kumar</td>
+            <td>CSE</td>
+            <td>3rd</td>
+            <td>9876543210</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Priya Singh</td>
+            <td>ECE</td>
+            <td>3rd</td>
+            <td>9876543211</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Rohan Verma</td>
+            <td>Mechanical</td>
+            <td>3rd</td>
+            <td>9876543212</td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>Sneha Gupta</td>
+            <td>Civil</td>
+            <td>3rd</td>
+            <td>9876543213</td>
+        </tr>
+        <tr>
+            <td>105</td>
+            <td>Vikash Yadav</td>
+            <td>Electrical</td>
+            <td>3rd</td>
+            <td>9876543214</td>
+        </tr>
+    </table>
+</body>
+</html>
